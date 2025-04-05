@@ -4,12 +4,13 @@ from pydantic import BaseModel
 from typing import Optional
 from datetime import datetime, date
 
-# -------- DashboardStats Schema --------
+# -------- DashboardStats Schema --------class DashboardStatsBase(BaseModel):
 class DashboardStatsBase(BaseModel):
-    total_faces: int
+    total_faces_detected: int
     recognized_faces: int
     unrecognized_faces: int
-    login_attempts: int
+    total_login_attempts: int
+
 
 class DashboardStatCreate(DashboardStatsBase):
     date: date  # Sent from the school server
