@@ -17,3 +17,6 @@ Thumbs.db
 *.pyo
 *.pyd
 
+# alembic
+alembic.ini
+

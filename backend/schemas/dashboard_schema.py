@@ -1,16 +1,18 @@
+# backend/schemas/dashboard_schema.py
+
 from pydantic import BaseModel
 from typing import Optional
-from datetime import datetime
+from datetime import datetime, date
 
 # -------- DashboardStats Schema --------
 class DashboardStatsBase(BaseModel):
-    total_faces_detected: int
+    total_faces: int
     recognized_faces: int
     unrecognized_faces: int
-    total_login_attempts: int
+    login_attempts: int
 
 class DashboardStatCreate(DashboardStatsBase):
-    pass
+    date: date  # Sent from the school server
 
 class DashboardStatsResponse(DashboardStatsBase):
     id: int
