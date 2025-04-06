@@ -42,3 +42,19 @@ def get_dashboard_stats(db: Session = Depends(get_db)):
         "loginAttempts": stats.login_attempts or 0
     }
 
+@router.get("/api/dashboard/trends")
+def get_face_recognition_trends(db: Session = Depends(get_db)):
+    trends = db.query(
+        DashboardStat.date,
+        DashboardStat.recognized_faces,
+        DashboardStat.unrecognized_faces
+    ).order_by(DashboardStat.date.asc()).all()
+
+    return [
+        {
+            "date": row.date.strftime("%Y-%m-%d"),
+            "recognizedFaces": row.recognized_faces,
+            "unrecognizedFaces": row.unrecognized_faces
+        }
+        for row in trends
+    ]
