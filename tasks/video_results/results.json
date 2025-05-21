@@ -1,0 +1,206 @@
+[
+  {
+    "frame": "video_results/frame_00070.jpg",
+    "student": "student_86",
+    "confidence": 0.8651441335678101,
+    "source_file": "s15_face_12",
+    "bbox": [
+      273,
+      291,
+      382,
+      375
+    ]
+  },
+  {
+    "frame": "video_results/frame_00084.jpg",
+    "student": "Unknown",
+    "confidence": 0.5843905806541443,
+    "source_file": "s15_face_25",
+    "bbox": [
+      149,
+      107,
+      280,
+      208
+    ]
+  },
+  {
+    "frame": "video_results/frame_00084.jpg",
+    "student": "Unknown",
+    "confidence": 0.7215827703475952,
+    "source_file": "s11_face_1",
+    "bbox": [
+      297,
+      286,
+      413,
+      374
+    ]
+  },
+  {
+    "frame": "video_results/frame_00098.jpg",
+    "student": "Unknown",
+    "confidence": 0.20503444969654083,
+    "source_file": "s15_face_12",
+    "bbox": [
+      219,
+      127,
+      349,
+      223
+    ]
+  },
+  {
+    "frame": "video_results/frame_00098.jpg",
+    "student": "Unknown",
+    "confidence": 0.43121927976608276,
+    "source_file": "s11_face_1",
+    "bbox": [
+      326,
+      292,
+      440,
+      372
+    ]
+  },
+  {
+    "frame": "video_results/frame_00112.jpg",
+    "student": "Unknown",
+    "confidence": 0.374861478805542,
+    "source_file": "s15_face_12",
+    "bbox": [
+      282,
+      162,
+      397,
+      256
+    ]
+  },
+  {
+    "frame": "video_results/frame_00112.jpg",
+    "student": "Unknown",
+    "confidence": 0.28598400950431824,
+    "source_file": "s12_face_7",
+    "bbox": [
+      336,
+      301,
+      438,
+      383
+    ]
+  },
+  {
+    "frame": "video_results/frame_00126.jpg",
+    "student": "Unknown",
+    "confidence": 0.4065316319465637,
+    "source_file": "s15_face_12",
+    "bbox": [
+      302,
+      189,
+      413,
+      286
+    ]
+  },
+  {
+    "frame": "video_results/frame_00126.jpg",
+    "student": "Unknown",
+    "confidence": 0.4952305257320404,
+    "source_file": "s12_face_7",
+    "bbox": [
+      337,
+      315,
+      442,
+      399
+    ]
+  },
+  {
+    "frame": "video_results/frame_00140.jpg",
+    "student": "Unknown",
+    "confidence": 0.6144004464149475,
+    "source_file": "s15_face_12",
+    "bbox": [
+      289,
+      175,
+      400,
+      269
+    ]
+  },
+  {
+    "frame": "video_results/frame_00140.jpg",
+    "student": "Unknown",
+    "confidence": 0.7619298100471497,
+    "source_file": "s12_face_7",
+    "bbox": [
+      348,
+      299,
+      455,
+      382
+    ]
+  },
+  {
+    "frame": "video_results/frame_00154.jpg",
+    "student": "Unknown",
+    "confidence": 0.6156542897224426,
+    "source_file": "s12_face_7",
+    "bbox": [
+      296,
+      168,
+      403,
+      255
+    ]
+  },
+  {
+    "frame": "video_results/frame_00154.jpg",
+    "student": "Unknown",
+    "confidence": 0.42520204186439514,
+    "source_file": "s12_face_7",
+    "bbox": [
+      352,
+      295,
+      463,
+      373
+    ]
+  },
+  {
+    "frame": "video_results/frame_00168.jpg",
+    "student": "Unknown",
+    "confidence": 0.31334006786346436,
+    "source_file": "s15_face_12",
+    "bbox": [
+      359,
+      287,
+      477,
+      365
+    ]
+  },
+  {
+    "frame": "video_results/frame_00168.jpg",
+    "student": "Unknown",
+    "confidence": 0.3397776186466217,
+    "source_file": "s12_face_7",
+    "bbox": [
+      301,
+      167,
+      415,
+      257
+    ]
+  },
+  {
+    "frame": "video_results/frame_00182.jpg",
+    "student": "Unknown",
+    "confidence": 0.5237483382225037,
+    "source_file": "s12_face_7",
+    "bbox": [
+      309,
+      173,
+      415,
+      259
+    ]
+  },
+  {
+    "frame": "video_results/frame_00182.jpg",
+    "student": "Unknown",
+    "confidence": 0.6444797515869141,
+    "source_file": "s11_face_1",
+    "bbox": [
+      356,
+      293,
+      469,
+      373
+    ]
+  }
+]
